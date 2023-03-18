@@ -3,7 +3,7 @@
 		"tailwindcss": "^3.2.7"
 	},
 	"scripts": {
-		"tailwind": "npx tailwindcss -i ./src/css/input.css -o ./src/css/output.css --watch"
+		"tailwind": "npx tailwindcss -i ./docs/css/input.css -o ./docs/css/output.css --watch"
 	},
 	"dependencies": {
 		"tw-elements": "^1.0.0-beta1"
