@@ -34,6 +34,7 @@ const printData = async (row) => {
     const c7 = document.createElement('td');
     const c8 = document.createElement('td');
 
+    cage.classList.add('border-b', 'transition', 'duration-300', 'ease-in-out', 'hover:bg-gray-100');
     c1.classList.add('px-1', 'py-1', 'font-semibold');
     c2.classList.add('whitespace-nowrap', 'px-6', 'py-4');
     c3.classList.add('whitespace-nowrap', 'px-6', 'py-4');
@@ -55,7 +56,7 @@ const printData = async (row) => {
         c8.innerHTML = 'Llueve'
         c8.classList.add('text-blue-600');
     }else{
-        c8.innerHTML = 'NO llueve'
+        c8.innerHTML = 'No llueve'
         c8.classList.add('text-orange-600');
     }
 
